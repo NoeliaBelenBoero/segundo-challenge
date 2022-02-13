@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section id="pantalla-inicio">
+       <h1>Ahorcado</h1><br><br>
+       <button id="inicio-juego">INICIAR JUEGO</button><br><br><br>
+       <input id="palabra"  placeholder="Ingrese palabra en MAYÚSCULAS" onkeypress="return soloLetras(event)"/><br><br>
+       <button id="agregar-palabra">AGREGAR PALABRA</button>
+    </section> 
+    <canvas id="myCanvas" width="1500" height="550"></canvas><br><br>
+
+    <section id="juego">
+       <label for="ingreso">Ingrese una letra mayúscula</label>  
+       <input id="ingreso" maxlength="1" placeholder="letra" onkeypress="return soloLetras(event)"/>
+       <button id="captura">ingreso</button>
+    </section> 
+    <button id="volver-inicio" onclick="location.reload()">VOLVER</button>  
+    <script src="principal.js"></script>
+    <script src="agregaPalabras.js"></script>
+    <script src="crearMunhieco.js"></script>
+    <script src="secundario.js"></script>
+</body>
+<footer>
+    Derechos reservados &copy; 2022 <br>
+    Diseño: Marcelo Lofiego<br>
+    Email:marceloalejandrolofiego@hotmail.com.ar
+</footer>
+</html> 

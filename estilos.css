@@ -1,0 +1,76 @@
+body{
+
+   background-color: rgb(5, 19, 19);
+
+}
+h1{
+    font-size: 100px;
+    text-align: center;
+    color:rgb(163, 39, 39);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 9px 15px 37px;
+}
+label{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(77, 141, 77);
+    text-shadow: 9px 15px 37px;
+}
+#inicio-juego{
+    background-color: rgb(153, 15, 15);
+    color: rgb(180, 206, 180);
+    text-shadow: darkblue;
+    border-radius: 5px;
+    text-align: center;
+    padding:20px;
+    box-shadow: black;
+}
+#agregar-palabra{
+    background-color: rgb(153, 15, 15);
+    color: rgb(180, 206, 180);
+    text-shadow: darkblue;
+    border-radius: 5px;
+    text-align: center;
+    padding:20px;
+    box-shadow: black;
+}
+#pantalla-inicio{
+    text-align: center;
+}
+#palabra{
+    padding: 30px;
+    border-radius: 10px;
+}
+#juego{
+   text-align: center;
+}
+#ingreso{
+    padding: 15px;
+    height: 40px;
+    width: 20px;
+    border-radius: 10px;
+}  
+#captura{
+    background-color: rgb(153, 15, 15);
+    color: rgb(180, 206, 180);
+    text-shadow: darkblue;
+    border-radius: 5px;
+    text-align: center;
+    padding: 7px;
+} 
+#volver-inicio{
+    background-color: rgb(153, 15, 15);
+    color: rgb(180, 206, 180);
+    text-shadow: darkblue;
+    border-radius: 5px;
+    text-align: center;
+    padding:20px;
+    box-shadow: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: darkblue;
+} 
